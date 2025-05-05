@@ -1,7 +1,49 @@
-/*General*/
-html{
+:root {
+	--accent-1: #00868a;
+	--accent-2: #4fbfa5;
+	--white: #fff;
+    --font-family: "Arial", sans-serif;
+}
+
+html {
     box-sizing: border-box;
 }
 *, *::before, *::after{
     box-sizing: inherit;
+}
+body {
+    margin: 0;
+}
+.header_cards {
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--accent-1);
+}
+
+.container {
+    max-width: 1344px;
+    width: 100%;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.cards {
+    padding: 162px 0;
+    min-height: 800px;
+}
+.cards_inner {
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.card {
+}
+.top {
+}
+.bottom {
 }
